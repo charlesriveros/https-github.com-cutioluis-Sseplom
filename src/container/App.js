@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import Explore from '../components/Explore/Explore';
+import Unions from '../components/Unions/Unions';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Explore />
+      <Unions />
       <Footer />
     </div>
   );

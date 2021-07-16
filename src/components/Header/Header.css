@@ -5,7 +5,6 @@
 .seplom-header h1 {
     margin-top: 50px;
     margin-bottom: 20px;
-    text-transform: uppercase;
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -15,13 +14,8 @@
     background-image: var(--seplom-gradient-yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: bg-animation 15s infinite alternate;
 }
 
-@keyframes bg-animation {
-    0% {background-position: left; }
-    100% {background-position:right}
-}
 
 .seplom-header .btn {
     margin: 0 5px;

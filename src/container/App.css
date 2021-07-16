@@ -6,22 +6,28 @@
   --seplom-blue: #00d0ff;
   --seplom-pink: #f40087;
   --seplom-pink-soft: #fd60ad;
-  --seplom-blue-black: #06083F;
+  --seplom-blue-black: #06083f;
   /* Gradients */
   --seplom-gradient-yellow: linear-gradient(
-    137.04deg,
+    95.82deg,
     #fd5db0 0%,
     #fe9a7a 96.69%
   );
-  
   --seplom-gradient-blue: linear-gradient(90deg, #00d0ff 0%, #007dff 100%);
   --seplom-gradient-pink: linear-gradient(90deg, #f40087 0%, #ff00cc 100%);
   /* Gradients Cards */
-  --seplom-gradient-promotion: linear-gradient(137.04deg, #00CBFF 0%, #00BAFF 36.57%, #F40087 74.34%, #FD59B3 96.69%);
+  --seplom-gradient-promotion: linear-gradient(
+    137.04deg,
+    #00cbff 0%,
+    #0059ff 36.57%,
+    #f000dc 74.34%,
+    #fd59b3 96.69%
+  );
   /* Fonts */
   --seplom-weight: 900;
   --seplom-weight-titles: 700;
   --seplom-size: 16px;
+  --seplom-title-union: 25px;
   /* Transitions */
   --seplom-transition: 250ms;
   /* Displays */
@@ -34,11 +40,11 @@
 }
 
 a:-webkit-any-link {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 input:focus-visible {
-    outline: none;
+  outline: none;
 }
 
 body {

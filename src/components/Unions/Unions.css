@@ -1,0 +1,19 @@
+.seplom-unions {
+    text-align: center
+}
+
+.seplom-unions .unions-line {
+    height: 3px;
+    margin: 20px auto;
+    width: 25%;
+    background: var(--seplom-gradient-blue);
+}
+
+.unions-title {
+    font-size: var( --seplom-title-union);
+    font-weight: var(--seplom-weight);
+    background-size: 300%;
+    background-image: var(--seplom-gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
