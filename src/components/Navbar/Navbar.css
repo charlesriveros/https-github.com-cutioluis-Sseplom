@@ -1,7 +1,7 @@
 .seplom-navigation {
     display: var(--seplom-display-flex);
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 80px;
     font-size: var(--seplom-size);
