@@ -1,0 +1,53 @@
+:root {
+  /* Seplom Colors */
+  --seplom-white: #ffffff;
+  --seplom-bg: #00022e;
+  --seplom-yellow: #fea074;
+  --seplom-blue: #00d0ff;
+  --seplom-pink: #f40087;
+  --seplom-pink-soft: #fd60ad;
+  /* Gradients */
+  --seplom-gradient-yellow: linear-gradient(
+    137.04deg,
+    #fd5db0 0%,
+    #fe9a7a 96.69%
+  );
+  -seplom-gradient-blue: linear-gradient(90deg, #00d0ff 0%, #007dff 100%);
+  --seplom-gradient-pink: linear-gradient(90deg, #f40087 0%, #ff00cc 100%);
+  /* Fonts */
+  --seplom-weight: 900;
+  --seplom-weight-titles: 700;
+  --seplom-size: 16px;
+  /* Transitions */
+  --seplom-transition: 250ms;
+  /* Displays */
+  --seplom-display-flex: flex;
+  /* Buttons */
+  --seplom-padding-btn: 10px;
+  --seplom-height-btn: 40px;
+  --seplom-width-btn: 130px;
+  --seplom-radius-btn: 10px
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--seplom-bg);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

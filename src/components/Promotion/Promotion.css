@@ -1,0 +1,15 @@
+.seplom-promotion {
+    display: var(--seplom-display-flex);
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    height: auto;
+    width: 100%;
+    background-color: var(--seplom-yellow);
+}
+
+.seplom-promotion p {
+    text-align: center;
+    color: var(--seplom-white);
+    font-size: var(--seplom-size);
+}
