@@ -31,6 +31,14 @@
   --seplom-radius-btn: 10px;
 }
 
+a:-webkit-any-link {
+  text-decoration:none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
 body {
   margin: 0;
   padding: 0;
