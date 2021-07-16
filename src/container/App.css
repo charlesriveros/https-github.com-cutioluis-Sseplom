@@ -16,6 +16,8 @@
   
   --seplom-gradient-blue: linear-gradient(90deg, #00d0ff 0%, #007dff 100%);
   --seplom-gradient-pink: linear-gradient(90deg, #f40087 0%, #ff00cc 100%);
+  /* Gradients Cards */
+  --seplom-gradient-promotion: linear-gradient(137.04deg, #00CBFF 0%, #00BAFF 36.57%, #F40087 74.34%, #FD59B3 96.69%);
   /* Fonts */
   --seplom-weight: 900;
   --seplom-weight-titles: 700;
@@ -32,11 +34,11 @@
 }
 
 a:-webkit-any-link {
-  text-decoration:none;
+    text-decoration:none;
 }
 
 input:focus-visible {
-  outline: none;
+    outline: none;
 }
 
 body {

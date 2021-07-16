@@ -5,11 +5,19 @@
     padding: 15px 0;
     height: auto;
     width: 100%;
-    background-color: var(--seplom-yellow);
+    background-size: 400%;
+    background-image: var(--seplom-gradient-promotion);
+    animation: bg-animation 3s infinite alternate;
 }
 
 .seplom-promotion p {
     text-align: center;
     color: var(--seplom-white);
     font-size: var(--seplom-size);
+}
+
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position:right}
 }

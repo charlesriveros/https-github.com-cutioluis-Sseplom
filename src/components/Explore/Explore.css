@@ -1,0 +1,9 @@
+.seplom-explore {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.seplom-explore p {
+    color: var(--seplom-white);
+    letter-spacing: 0.165em;
+}

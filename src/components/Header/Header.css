@@ -15,7 +15,7 @@
     background-image: var(--seplom-gradient-yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: bg-animation 3s infinite alternate;
+    animation: bg-animation 15s infinite alternate;
 }
 
 @keyframes bg-animation {
