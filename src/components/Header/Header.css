@@ -1,0 +1,55 @@
+.seplom-header  {
+    text-align: center
+}
+
+.seplom-header h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+
+    background-size: 300%;
+    background-image: var(--seplom-gradient-yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bg-animation 3s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left; }
+    100% {background-position:right}
+}
+
+.seplom-header .btn {
+    margin: 0 5px;
+    font-weight: var(--seplom-weight);
+    border-radius: var( --seplom-radius-btn);
+    height: var( --seplom-height-btn);
+    width: var(--seplom-width-btn);
+}
+
+.seplom-header .btn-contratar {
+    border: none;
+    background-color: var( --seplom-yellow );
+    color: var( --seplom-white );
+}
+
+.seplom-header .btn-cotizacion {
+    border: 2px solid var( --seplom-yellow );
+    background: none;
+    color: var( --seplom-white);
+}
+
+.seplom-header-paragraph {
+    margin: 20px 0;
+    text-align:center;
+    font-size: var(--seplom-size);
+    color: var(--seplom-white);
+}
+
+.seplom-header-paragraph b {
+    color: var(--seplom-yellow);
+}
