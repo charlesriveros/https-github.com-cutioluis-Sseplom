@@ -19,7 +19,7 @@ const Navbar = () => {
           <li>Blog</li>
         </ul>
         <ul className="navigation-buttons">
-          <button className="btn btn-navigation">Contratar</button>
+          <button class=" btn glow-on-hover" type="button">Contratar</button>
         </ul>
       </nav>
     </>

@@ -17,11 +17,16 @@
   --seplom-gradient-pink: linear-gradient(90deg, #f40087 0%, #ff00cc 100%);
   /* Gradients Cards */
   --seplom-gradient-promotion: linear-gradient(
-    137.04deg,
-    #00cbff 0%,
-    #0059ff 36.57%,
-    #f000dc 74.34%,
-    #fd59b3 96.69%
+    45deg,
+    #ff0088,
+    #d900ff,
+    #00e1ff,
+    #4058e2,
+    #11035e,
+    #1d0d75,
+    #7a00ff,
+    #ff00c8,
+    #970277
   );
   /* Fonts */
   --seplom-weight: 900;

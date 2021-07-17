@@ -7,7 +7,7 @@
     width: 100%;
     background-size: 400%;
     background-image: var(--seplom-gradient-promotion);
-    animation: bg-animation 3s infinite alternate;
+    animation: bg-animation 10s infinite alternate;
 }
 
 .seplom-promotion p {

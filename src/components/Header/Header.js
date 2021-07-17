@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <header className="seplom-header">
       <h1>
-        <span>Plomeria</span>
+        <span>Worlo</span>
         <br />
-        <span>Inmediata.</span>
+        <span>Studio.</span>
       </h1>
       <button className="btn btn-contratar">Contratar</button>
       <button className="btn btn-cotizacion">Cotizacion</button>
