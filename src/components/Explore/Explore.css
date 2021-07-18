@@ -4,6 +4,7 @@
 }
 
 .seplom-explore p {
+    margin: 50px 0;
     color: var(--seplom-white);
     letter-spacing: 0.165em;
 }

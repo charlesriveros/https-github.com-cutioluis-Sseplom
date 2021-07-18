@@ -59,7 +59,7 @@
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite alternate;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s alternate;
 }
 
 .glow-on-hover:active:after {
@@ -85,10 +85,7 @@
   0% {
     background-position: 0 0;
   }
-  50% {
-    background-position: 400% 0;
-  }
   100% {
-    background-position: 0 0;
+    background-position: 400% 0;
   }
 }
