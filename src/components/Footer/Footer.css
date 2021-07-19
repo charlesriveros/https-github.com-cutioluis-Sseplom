@@ -7,7 +7,7 @@
     margin: 50px 0;
     display: var(--seplom-display-flex);
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: var(--seplom-white);
 }
 
@@ -19,7 +19,7 @@
     display:var(--seplom-display-flex);
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .footer-bot p {

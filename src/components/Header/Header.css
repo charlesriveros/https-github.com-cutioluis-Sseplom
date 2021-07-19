@@ -38,6 +38,7 @@
 }
 
 .seplom-header-paragraph {
+    padding:  var(--seplom-padding-text);
     margin: 20px 0;
     text-align:center;
     font-size: var(--seplom-size);

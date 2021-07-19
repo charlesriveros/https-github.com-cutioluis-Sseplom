@@ -39,9 +39,11 @@
   --seplom-display-flex: flex;
   /* Buttons */
   --seplom-padding-btn: 10px;
-  --seplom-height-btn: 40px;
+  --seplom-height-btn: 50px;
   --seplom-width-btn: 130px;
   --seplom-radius-btn: 10px;
+  /* Paddings */
+  --seplom-padding-text: 20px;
 }
 
 a:-webkit-any-link {

@@ -1,0 +1,17 @@
+.seplom-services {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.seplom-services .services-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 104.5%;
+    color: var(--seplom-white);
+}
+
+.seplom-services .services-paragraph {
+    padding:  var(--seplom-padding-text);
+    color: var(--seplom-white);
+}

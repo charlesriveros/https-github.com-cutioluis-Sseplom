@@ -7,6 +7,7 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import Explore from '../components/Explore/Explore';
 import Unions from '../components/Unions/Unions';
+import Servicios from '../components/Servicios/Servicios';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <Explore />
       <Unions />
+      <Servicios />
       <Footer />
     </div>
   );

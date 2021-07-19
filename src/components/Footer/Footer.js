@@ -41,8 +41,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-bot">
-      <img className="logo-footer" src={Logo} alt="Logo Seplom" />
-
+        <img className="logo-footer" src={Logo} alt="Logo Seplom" />
         <p>Copyright © 2021 Seplom Inc. All rights reserved</p>
         <input
           className="feedback-btn"
