@@ -1,0 +1,19 @@
+.seplom-notfound {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.notfound-title {
+    margin: 0;
+    font-size: 80px;
+    background-size: 300%;
+    background-image: var(--seplom-gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    margin: 20px 0;
+    height: var(--seplom-height-btn);
+    width: var(--seplom-width-btn);
+}

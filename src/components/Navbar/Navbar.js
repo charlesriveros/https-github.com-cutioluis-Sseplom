@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import Logo from "../../assets/static/seplom-logo.png";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -13,7 +13,9 @@ const Navbar = () => {
           <img src={Logo} alt="Seplom" />
         </ul>
         <ul className="navigation-nav">
-          <li>Home</li>
+          <Link to="/">
+            <li>Home</li>          
+          </Link>
           <li>Servicios</li>
           <li>Nosotros</li>
           <li>Blog</li>

@@ -14,7 +14,9 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <Explore />
+      <Explore
+        title="EXPLORE THE SEPLOM WAY"
+      />
       <Unions
         title="Eficiente"
       />
@@ -42,6 +44,9 @@ const Home = () => {
        duda o inquietud comunicate con nuestro equipo"
       />
       <Reviews />
+      <Explore
+        title="EMPRESAS QUE CONFIARON EN SEPLOM"
+      />
     </div>
   );
 };
