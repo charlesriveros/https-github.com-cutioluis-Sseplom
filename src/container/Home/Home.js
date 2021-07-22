@@ -6,6 +6,7 @@ import Explore from "../../components/Explore/Explore";
 import Unions from "../../components/Unions/Unions";
 import Servicios from "../../components/Servicios/Servicios";
 import HireServices from '../../components/HireServices/HireServices'
+import Comunication from "../../components/Comunication/Comunication";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
         paragraph="Nuestros clientes aman Seplom te ayudamos a solucionar muchos problemas que necesites a 
         un precio que se ajuste a tus necesidades"
       />
+      <Comunication />
       <Unions
         title="Felices"
       />

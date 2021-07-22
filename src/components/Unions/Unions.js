@@ -7,6 +7,7 @@ const Unions = (props) => {
             <div className="unions-line"></div>
             <span className="unions-title">{props.title}</span>
         </section>
+        
     );
 };
 
