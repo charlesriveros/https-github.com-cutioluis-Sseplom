@@ -1,0 +1,34 @@
+.seplom-hire {
+    max-width: 980px;
+    margin: 20px auto;
+}
+
+.hire__container {
+    display: var(--seplom-display-flex);
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container__container-left {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.container__container-rigth {
+    max-width: 300px;
+}
+
+.container__container-rigth h3 {
+    color: var(--seplom-white);
+    font-size: var(  --seplom-title-services)
+}
+
+.container__container-rigth p {
+    color: var(--seplom-white);
+}
+
+.rigth-article {
+    margin: 20px 0;
+}

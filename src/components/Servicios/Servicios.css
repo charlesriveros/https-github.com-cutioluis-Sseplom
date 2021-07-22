@@ -1,5 +1,6 @@
 .seplom-services {
-    margin: 15px 0;
+    max-width: 580px;
+    margin: 15px auto;
     text-align: center;
 }
 
@@ -15,3 +16,4 @@
     padding:  var(--seplom-padding-text);
     color: var(--seplom-white);
 }
+

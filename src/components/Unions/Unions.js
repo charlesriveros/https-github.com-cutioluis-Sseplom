@@ -1,11 +1,11 @@
 import React from 'react';
 import './Unions.css'
 
-const Unions = () => {
+const Unions = (props) => {
     return (
         <section className="seplom-unions">
             <div className="unions-line"></div>
-            <span className="unions-title">Eficiente</span>
+            <span className="unions-title">{props.title}</span>
         </section>
     );
 };

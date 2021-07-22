@@ -44,6 +44,9 @@
   --seplom-radius-btn: 10px;
   /* Paddings */
   --seplom-padding-text: 20px;
+  /* Serivices Medidas */
+  --seplom-title-services: 25px
+  
 }
 
 a:-webkit-any-link {
