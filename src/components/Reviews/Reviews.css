@@ -1,0 +1,20 @@
+.seplom-reviews {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.reviews-container {
+    height:150px;
+    width: auto;
+    padding: 30px;
+    display: var(--seplom-display-flex);
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: var(--seplom-blue-card);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -1px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: var(--seplom-radius-btn);
+}
+
+.reviews-items h3, p {
+    color: var(--seplom-white)
+}

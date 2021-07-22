@@ -7,6 +7,8 @@ import Unions from "../../components/Unions/Unions";
 import Servicios from "../../components/Servicios/Servicios";
 import HireServices from '../../components/HireServices/HireServices'
 import Comunication from "../../components/Comunication/Comunication";
+import Reviews from "../../components/Reviews/Reviews";
+
 
 const Home = () => {
   return (
@@ -39,6 +41,7 @@ const Home = () => {
         paragraph="Con Seplom tendras comunicacion con expertos del nuestra area cualquier
        duda o inquietud comunicate con nuestro equipo"
       />
+      <Reviews />
     </div>
   );
 };
