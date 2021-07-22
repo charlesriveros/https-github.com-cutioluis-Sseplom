@@ -2,7 +2,7 @@
     text-align: center
 }
 
-.seplom-header h1 {
+.seplom-header .seplom-header-title {
     margin-top: 50px;
     margin-bottom: 20px;
     font-style: normal;

@@ -6,6 +6,7 @@
 .notfound-title {
     margin: 0;
     font-size: 80px;
+    font-weight: var(--seplom-weight);
     background-size: 300%;
     background-image: var(--seplom-gradient-blue);
     -webkit-background-clip: text;

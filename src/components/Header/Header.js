@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="seplom-header">
-      <h1>
+      <h1 className="seplom-header-title">
         <span>Plomeria</span>
         <br />
         <span>Inmediata.</span>
