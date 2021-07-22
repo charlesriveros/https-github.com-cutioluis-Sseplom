@@ -10,7 +10,9 @@ const Navbar = () => {
     <>
       <nav className="seplom-navigation">
         <ul className="navigation-logo">
-          <img src={Logo} alt="Seplom" />
+          <Link to="/">
+             <img src={Logo} alt="Seplom" />          
+          </Link>
         </ul>
         <ul className="navigation-nav">
           <Link to="/">

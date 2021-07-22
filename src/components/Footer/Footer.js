@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import Logo from "../../assets/static/seplom-logo.png";
 import "./Footer.css";
@@ -41,7 +42,9 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-bot">
-        <img className="logo-footer" src={Logo} alt="Logo Seplom" />
+        <Link to="/">
+          <img className="logo-footer" src={Logo} alt="Logo Seplom" />        
+        </Link>
         <p>Copyright © 2021 Seplom Inc. All rights reserved</p>
         <input
           className="feedback-btn"
@@ -49,8 +52,12 @@ const Footer = () => {
           placeholder="Enviar Feedback |"
         />
         <div className="footer-bot-icons">
-          <AiFillFacebook />
-          <AiFillInstagram />
+          <a href="https://www.facebook.com/Plomer%C3%ADa-Inmediata-111753473617169">
+            <AiFillFacebook />  
+          </a>
+          <a href="https://www.instagram.com/plomeria_inmediata/?fbclid=IwAR1aF5nSaz-vzXgvgz_JIIePxt1Bmi6yTAmlIHVQE7cHmZvwN9JAtKTMDmE">
+             <AiFillInstagram /> 
+          </a>
         </div>
       </div>
     </footer>
