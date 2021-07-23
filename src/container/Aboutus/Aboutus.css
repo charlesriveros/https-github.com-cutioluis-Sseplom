@@ -1,0 +1,24 @@
+.seplom-about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+
+    background-size: 300%;
+    background-image: var(--seplom-gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-paragraph {
+    margin: 20px 0;
+    color: var(--seplom-blue-about)
+}

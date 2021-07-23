@@ -16,6 +16,12 @@
     height: auto;
 }
 
+.hire-img {
+    width: 100%;
+    max-width: 380px;
+    height: auto; 
+}
+
 .container__container-rigth {
     max-width: 300px;
 }

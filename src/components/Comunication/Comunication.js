@@ -17,7 +17,7 @@ const Comunication = () => {
           </article>
         </div>
         <div className="container__container-left">
-          <img src={ComunicationImage} alt="Contratar Facilemente" />
+          <img className="comunication-img" src={ComunicationImage} alt="Contratar Facilemente" />
         </div>
       </div>
     </section>

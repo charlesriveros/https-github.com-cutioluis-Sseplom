@@ -7,7 +7,7 @@ const HireServices = () => {
     <section className="seplom-hire">
       <div className="hire__container">
         <div className="container__container-left">
-          <img src={HireImage} alt="Contratar Facilemente" />
+          <img className="hire-img" src={HireImage} alt="Contratar Facilemente" />
         </div>
         <div className="container__container-rigth">
           <article className="rigth-article">

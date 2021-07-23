@@ -10,9 +10,9 @@
     flex-wrap: wrap;
 }
 
-.container__container-left {
+.comunication-img {
     width: 100%;
-    max-width: 400px;
+    max-width: 390px;
     height: auto;
 }
 
