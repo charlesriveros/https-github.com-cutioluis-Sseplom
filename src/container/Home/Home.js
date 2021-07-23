@@ -30,7 +30,7 @@ const Home = () => {
         title="Transparencia"
       />
       <Servicios
-        title="Our Comunication"
+        title="Our Comu"
         paragraph="Nuestros clientes aman Seplom te ayudamos a solucionar muchos problemas que necesites a 
         un precio que se ajuste a tus necesidades"
       />

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Explore.css'
 
-const Explore = () => {
+const Explore = (props) => {
     return (
         <section className="seplom-explore">
-            <p>EXPLORE THE SEPLOM WAY</p>
+            <p>{props.title}</p>
         </section>
     );
 };
