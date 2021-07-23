@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
 
-import Header from "../..//components/Header/Header";
-import Explore from "../../components/Explore/Explore";
-import Unions from "../../components/Unions/Unions";
-import Servicios from "../../components/Servicios/Servicios";
-import HireServices from '../../components/HireServices/HireServices'
-import Comunication from "../../components/Comunication/Comunication";
-import Reviews from "../../components/Reviews/Reviews";
+import Header from "../../components/Home/Header/Header";
+import Explore from "../../components/Home/Explore/Explore";
+import Unions from "../../components/Home/Unions/Unions";
+import Servicios from "../../components/Home/Servicios/Servicios";
+import HireServices from '../../components/Home/HireServices/HireServices'
+import Comunication from "../../components/Home/Comunication/Comunication";
+import Reviews from "../../components/Home/Reviews/Reviews";
 
 
 const Home = () => {

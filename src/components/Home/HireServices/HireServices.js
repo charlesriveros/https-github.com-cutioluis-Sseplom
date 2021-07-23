@@ -1,5 +1,5 @@
 import React from "react";
-import HireImage from "../../assets/static/seplom-hire.png";
+import HireImage from "../../../assets/static/seplom-hire.png";
 import "./HireServices.css";
 
 const HireServices = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
-import Logo from "../../assets/static/seplom-logo.png";
+import Logo from "../../../assets/static/seplom-logo.png";
 import "./Footer.css";
 
 const Footer = () => {

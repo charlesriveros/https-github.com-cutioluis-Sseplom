@@ -1,5 +1,5 @@
 import React from "react";
-import ComunicationImage from "../../assets/static/seplom-comunication.png";
+import ComunicationImage from "../../../assets/static/seplom-comunication.png";
 import "./Comunication.css";
 
 const Comunication = () => {
